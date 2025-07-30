@@ -47,3 +47,5 @@ models:
     # Applies to all files under models/example/
     mart:
       +materialized: table
+      finance:
+        +schema: dbt_candela_finance
